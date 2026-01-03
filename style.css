@@ -501,7 +501,7 @@ h2{
   border-radius:28px;
   background:linear-gradient(145deg,#0f0f0f,#050505);
   border:1px solid rgba(246,195,106,.35);
-  transition:all .4s ease;
+  transition:all .9s ease;
   position:relative;
 }
 
