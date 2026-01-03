@@ -488,7 +488,7 @@ h2{
 .services-track{
   display:flex;
   gap:30px;
-  animation:serviceScroll 20s linear infinite;
+  animation:serviceScroll 10s linear infinite;
 }
 
 @keyframes serviceScroll{
@@ -501,7 +501,7 @@ h2{
   border-radius:28px;
   background:linear-gradient(145deg,#0f0f0f,#050505);
   border:1px solid rgba(246,195,106,.35);
-  transition:all .9s ease;
+  transition:all .4s ease;
   position:relative;
 }
 
@@ -570,7 +570,7 @@ h2{
 .reviews-track{
   display:flex;
   gap:28px;
-  animation:reviewsScroll 20s linear infinite;
+  animation:reviewsScroll 10s linear infinite;
 }
 
 /* ================= REVIEW CARD ================= */
@@ -662,7 +662,7 @@ h2{
 .work-track{
   display:flex;
   gap:24px;
-  animation:workScroll 20s linear infinite;
+  animation:workScroll 10s linear infinite;
 }
 
 @keyframes workScroll{
