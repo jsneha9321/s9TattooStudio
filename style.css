@@ -947,3 +947,11 @@ h2{
   transform:scale(1);
   opacity:0;
 }
+.work-track a img {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.work-track a img:hover {
+  transform: scale(1.05);
+}
