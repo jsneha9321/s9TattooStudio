@@ -488,7 +488,7 @@ h2{
 .services-track{
   display:flex;
   gap:30px;
-  animation:serviceScroll 25s linear infinite;
+  animation:serviceScroll 20s linear infinite;
 }
 
 @keyframes serviceScroll{
@@ -570,7 +570,7 @@ h2{
 .reviews-track{
   display:flex;
   gap:28px;
-  animation:reviewsScroll 35s linear infinite;
+  animation:reviewsScroll 20s linear infinite;
 }
 
 /* ================= REVIEW CARD ================= */
@@ -662,7 +662,7 @@ h2{
 .work-track{
   display:flex;
   gap:24px;
-  animation:workScroll 35s linear infinite;
+  animation:workScroll 20s linear infinite;
 }
 
 @keyframes workScroll{
@@ -845,6 +845,30 @@ h2{
     font-size:13px;
   }
 }
+.contact-col .contact-item {
+  display: flex;
+  align-items: flex-start; /* aligns icon with first line */
+  gap: 12px;
+  margin-bottom: 14px;
+  color: #f6c36a;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.contact-col .icon {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.contact-col a {
+  color: #f6c36a;
+  text-decoration: none;
+}
+
+.contact-col a:hover {
+  text-decoration: underline;
+}
+
 
 
 
